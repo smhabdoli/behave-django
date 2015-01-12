@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*$py.class
 
 # C extensions
 *.so
@@ -52,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Desktop Specific Meta Data
+.DS_Store
